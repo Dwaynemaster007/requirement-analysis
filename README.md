@@ -75,3 +75,35 @@ Their benefits include:
 Here is a use case diagram illustrating the core functionalities of the booking management system.
 
 ![alx-booking-uc.png](alx-booking-uc.png)
+
+---
+
+## Acceptance Criteria
+
+**Acceptance criteria** are a set of conditions that a software feature must satisfy to be considered complete and functional. They are a crucial component of **requirement analysis** because they provide a clear and objective way to verify that a feature meets the defined requirements. 
+
+[Image of the Agile development lifecycle]
+ In simple terms, they answer the question: "How will we know when this is done and working correctly?"
+
+The importance of acceptance criteria includes:
+
+* **Clarity and Shared Understanding**: They eliminate ambiguity by providing a specific checklist of what must be true for a feature to be considered "accepted." This ensures that developers, testers, and stakeholders all have the same definition of "done."
+* **Facilitates Testing**: Acceptance criteria form the basis for creating test cases. The QA team can use these criteria to build automated and manual tests, ensuring that the feature works as expected from a user's perspective.
+* **Manages Expectations**: By defining what a feature will and will not do, acceptance criteria help manage stakeholder expectations and prevent misunderstandings about the final deliverable.
+
+### Example: Acceptance Criteria for the Checkout Feature
+
+Below is an example of acceptance criteria for a "Checkout" feature in the booking management system. This feature allows a user to finalize a booking after selecting a room.
+
+**Feature**: Checkout Process
+
+**Scenario**: A registered user completes a booking for a room.
+
+**Given** the user is logged in and has selected a room to book,
+**When** the user proceeds to the checkout page,
+**Then** the system should display the total booking cost, including taxes and fees.
+**And** the user must be able to select their payment method (e.g., credit card).
+**And** the system should validate the payment information provided.
+**And** upon successful payment, the system should display a booking confirmation page with the reservation number.
+**And** an email confirmation with booking details should be sent to the user.
+**But** if the payment fails, the system should display an error message and allow the user to try again.
