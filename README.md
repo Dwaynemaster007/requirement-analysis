@@ -58,3 +58,20 @@ Software requirements can be broadly categorized into two main types: **Function
 * **Security**: The system shall encrypt all user passwords and personal information using industry-standard protocols.
 * **Usability**: The booking process shall be intuitive and require a maximum of five clicks to complete from the search results page.
 * **Scalability**: The system shall be able to handle 10,000 concurrent users without any degradation in performance.
+---
+
+## Use Case Diagrams
+
+**Use Case Diagrams** are a type of behavioral diagram in the **Unified Modeling Language (UML)** that illustrate a system's functionality in terms of actors and use cases. They provide a high-level, visual overview of the system's requirements, showing who interacts with the system (**actors**) and what they can do (**use cases**).
+
+Their benefits include:
+
+* **Clarity**: They simplify complex system interactions into an easy-to-understand visual representation.
+* **Stakeholder Communication**: They serve as a great tool for discussing and validating requirements with non-technical stakeholders.
+* **Scope Definition**: They help in defining the boundaries of the system and identifying all necessary functionalities.
+
+### Booking System Use Case Diagram
+
+Here is a use case diagram illustrating the core functionalities of the booking management system.
+
+![alx-booking-uc.png](alx-booking-uc.png)
