@@ -74,6 +74,7 @@ Their benefits include:
 
 Here is a use case diagram illustrating the core functionalities of the booking management system.
 
+![alx-booking-uc.png](alx-booking-uc.png)
 
 
 ---
